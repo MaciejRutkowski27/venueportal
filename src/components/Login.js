@@ -101,7 +101,7 @@ c22 -21 40 -82 33 -110 -5 -21 -92 -85 -115 -85 -21 0 -28 109 -11 157 19 50
                 <input type="text" />
               </div>
               <div id="login-button">
-                <Link to="/">
+                <Link to="/home">
                   <button className="homeButton">Log in</button>
                 </Link>
               </div>
@@ -109,14 +109,14 @@ c22 -21 40 -82 33 -110 -5 -21 -92 -85 -115 -85 -21 0 -28 109 -11 157 19 50
               <div className="iconrow">
                 <img
                   src={require("../assets/google.png")}
-                  style={{ width: "30px", height: "30px" }}
+                  style={{ width: "30px", height: "30px" }} alt="google"
                 />
                 Google
               </div>
               <div className="iconrow">
                 <img
                   src={require("../assets/apple.png")}
-                  style={{ width: "30px", height: "30px" }}
+                  style={{ width: "30px", height: "30px" }} alt="apple"
                 />
                 Apple
               </div>

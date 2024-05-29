@@ -56,7 +56,9 @@ export default function Home() {
                     <button className="homeButton">Add products</button>
                   </Link>
                   <button className="homeButton">Remove products</button>
-                  <button className="homeButton">Move products</button>
+                  <Link to="/move">
+                    <button className="homeButton">Move products</button>
+                  </Link>
                 </div>
               </div>
             </div>

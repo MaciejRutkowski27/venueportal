@@ -5,7 +5,7 @@ export default function Navigation() {
     return (
       <>
         <div className="sidenav">
-          <Link to="/">
+          <Link to="/home">
             <svg
               className="navlogo"
               version="1.0"
@@ -93,10 +93,10 @@ export default function Navigation() {
             </svg>
           </Link>
           <div className="navigation">
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/home" style={{ textDecoration: "none" }}>
               <p
                 className={`nav_element ${
-                  location.pathname === "/" ? "active" : ""
+                  location.pathname === "/home" ? "active" : ""
                 }`}
               >
                 Home
@@ -159,7 +159,7 @@ export default function Navigation() {
                 </p>
               </div>
             </Link>
-            <Link to="/login" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               <div className="options">
                 <img src={require("../assets/logout.png")} alt="logout" />
                 Log Out

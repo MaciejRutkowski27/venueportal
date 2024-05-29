@@ -19,7 +19,7 @@ export default function Error() {
               The furniture on this page has not been assembled yet,<br></br> we apologize
               for the inconvenience
             </p>
-            <Link to="/" style={{textDecoration: "none"}}>
+            <Link to="/home" style={{textDecoration: "none"}}>
             <button className="homeButton">Back to home page</button>
             </Link>
           </div>
